@@ -81,15 +81,19 @@ body{
 
 .rightSection{
  
-  border: solid 4px  #ff0000 black;
+  border: solid 4px   black;
   border-top-right-radius: 35%;
   border-bottom-left-radius: 10%;
   background-color: rgb(12, 12, 12);
   overflow: hidden;
   box-shadow: 25px 25px 5px black;
+}
+.rightSection :hover{
+  border: solid 2px  #ff0000;
+  border-top-right-radius: 35%;
+  border-bottom-left-radius: 10%;
 
 }
-
 
 
 .rightSection img{
@@ -114,15 +118,48 @@ height: 1.2px;
 margin: 40px 80px;
 }
 
-/* .secondSection{
+.secondSection{
   max-width: 80vw;
   margin: auto;
-  height: 80vh;
+  height: 60vh;
 }
 
 .secondSection h1{
   font-size: 1.6rem;
-} */
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.projects{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Netflix{
+  height: 100px;
+  width: 100px;
+  border: 1.5px solid red;
+}
+.Netflix a{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Amazon a{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Amazon{
+  height: 100px;
+  width: 100px;
+  border: 1.5px solid red;
+  border-radius: 50%;
+}
 
 .text-gray{
   color: gray;
@@ -150,6 +187,21 @@ footer a{
 .footer > div {
   width: 125px;
 
+}
+.instalogo{
+  border: 2px solid red ;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta{
+  height: 80px;
+  width: 80px;
 }
 
 footer .footer-rights{
@@ -240,10 +292,17 @@ footer .footer-rights{
   .footer{
    display: flex;
    justify-content: space-around;
-   font-size: medium;
+   font-size: small;
   }
   .footer-first{
     margin-left: 5px;
   }
-  
+  .instalogo{
+    height: 35px;
+    width: 35px;
+  }
+  .intsa{
+    height: 10px;
+    width: 10px;
+  }
 }
