@@ -139,7 +139,7 @@ margin: 40px 80px;
 .Netflix{
   height: 100px;
   width: 100px;
-  border: 1.5px solid red;
+  border: 1px solid red;
 }
 .Netflix a{
   color: white;
@@ -157,7 +157,7 @@ margin: 40px 80px;
 .Amazon{
   height: 100px;
   width: 100px;
-  border: 1.5px solid red;
+  border: 1px solid red;
   border-radius: 50%;
 }
 
